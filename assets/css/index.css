@@ -1,0 +1,25 @@
+/* Стиль для тега <mark> */
+mark {
+    background-color: lightgrey;
+}
+
+/* Стиль для таблицы */
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Стиль для выравнивания текста над таблицей */
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
